@@ -1,0 +1,5 @@
+import { View } from "react-native";
+
+export default function ListScreen() {
+  return <View>ListScreen</View>
+}
