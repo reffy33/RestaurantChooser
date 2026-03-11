@@ -20,7 +20,7 @@ export const validatePhone = (phone: string) => {
   }
 
   const phoneRegex =
-    /^[\+]?[\(]?[0-9]{3}{\)]?[-\s\.]?[0-9]{3}[-\s\. ]?[0-9]{4,6}$/;
+    /^[\+]?[\(]?[0-9]{3}[\)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/;
 
   if (!phoneRegex.test(phone)) {
     return "Please enter a valid phone number";
@@ -45,7 +45,7 @@ export const validateAddress = (address: string) => {
   return null;
 };
 
-export const validatewebsite = (website: string) => {
+export const validateWebsite = (website: string) => {
   if (!website.trim()) {
     return "Website is required";
   }
