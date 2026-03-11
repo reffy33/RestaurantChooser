@@ -3,7 +3,7 @@ import { StatusBar } from "expo-status-bar";
 import Constants from "expo-constants";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import { Image, Platform } from "react-native";
-import PeopleScreen from "../screens/PeopleScreen";
+import PeopleScreen from "../screens/people/PeopleScreen";
 import DicisionScreen from "../screens/DecisionScreen";
 import RestaurantsScreen from "../screens/restaurants/RestaurantsScreen";
 
