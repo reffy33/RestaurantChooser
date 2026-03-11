@@ -22,7 +22,7 @@ export default function AppNavigation() {
           lazy: true,
           tabBarShowIcon: true,
           tabBarInactiveTintColor: "#555555",
-          tabBarActiveTintColor: "#ffeeee",
+          tabBarActiveTintColor: "#002aff",
           tabBarStyle: {
             paddingTop: Constants.statusBarHeight,
           },
